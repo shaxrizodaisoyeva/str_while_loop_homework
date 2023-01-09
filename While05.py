@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    count=0
+    while a<len(s):
+        if s[a].islower()==True:
+            count+=1
+        a+=1
+    return count
+s="12FitY34mny5KiH67"
+print(main(s))
