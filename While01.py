@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    count=0
+    while a<len(s):
+        if s[a].isdigit()==True:
+            count+=1
+        a+=1
+    return count
+s="1234mny567"
+print(main(s))
